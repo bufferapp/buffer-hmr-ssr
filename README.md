@@ -12,11 +12,12 @@ Install the npm modules by running in the root directory of this repo.
 
 Build the client and server files by running
 
-`npm run build`
+`npm run build` or
 
-or `npm run build:client` | `npm run build:server` depending on what you need to rebuild.
+`npm run build:client` to build client.
+`npm run build:server` to build production.
 
-To server the production app run
+To server the production app using SSR run
 
 `npm run prod`
 
